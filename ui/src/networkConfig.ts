@@ -24,7 +24,7 @@ const { networkConfig, useNetworkVariable, useNetworkVariables } =
     },
     testnet: {
       url: getFullnodeUrl("testnet"),
-      variables: { packageId: PACKAGE_ID },
+      variables: { packageId: "0xbecd4a7ebbec7ed959a64958b6fb4ba178f580ec5db638f701387e21ab7774d9", },
     },
     mainnet: {
       url: getFullnodeUrl("mainnet"),

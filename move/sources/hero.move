@@ -57,4 +57,3 @@ public fun hero_image_url(hero: &Hero): String {
 public fun hero_id(hero: &Hero): ID {
     object::id(hero)
 }
-
